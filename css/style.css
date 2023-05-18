@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Ubuntu:ital@1&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+	position: relative;
+	z-index: 1;
+}
+.reg:hover{
+	color:#dc3545;
+}
+body {
+	box-sizing: border-box;
+	--bs-bg-opacity: 1;
+	background-color: #ffffff;
+}
+hr {
+	color: rgba(var(--bs-danger-rgb))!important;
+	opacity: .25 !important;
+}
+.container ul li {
+	list-style: none;
+}
+nav {
+	text-transform: uppercase;
+}
+.product {
+	min-height: 70vh;
+	display: grid;
+}
+h1 {
+	font-size: 2.5rem;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+p {
+  text-transform: capitalize;
+}
+.container .addbefore::before {
+	content: "";
+	display: block;
+	background: #ffffff;
+	width: 35px;
+	height: 22px;
+	position: relative;
+	left: 45%;
+	top: -10px;
+	transform: translate(-50%);
+	rotate: -140deg;
+	border-top-left-radius: 19px;
+	border-bottom-right-radius: 22px;
+}
+.card {
+	border: none;
+	width: 21.875rem;
+	cursor: pointer;
+	top: 0;
+	padding: 0 15px;
+}
+.product .card:hover .price {
+	transform: scale(1.08);
+	transition: .8s ease;
+}
+.product .card:hover {
+	box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+	transition: .6s ease-in-out;
+}
+.product {
+	padding-top: 20px;
+}
+.headdesc {
+	position: relative;
+	bottom: 0;
+	left: 0;
+}
+/*arrow in card */
+.styling {
+	width: 20px;
+	position: relative;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%);
+	border: 20px solid;
+	border-color: rgba(var(--bs-light-rgb),var(--bs-text-opacity));
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom: none;
+	margin-bottom: 15px;
+}
+.card .title p {
+	width: fit-content;
+	margin: auto;
+}
+
+
+
+
+
+
+/* Start Footer  */
+.footer {
+	position: relative;
+	box-shadow: 0 14px 28px rgb(0, 0, 0 , 0.3), 0px 10px 10px rgb(0 , 0 , 0 , 0.2);
+	bottom: 0;
+}
+
+.copyright {
+	width: fit-content;
+	margin: auto;
+}
+.footer .copyright h4 {
+	font-size: 25px;
+	font-weight: 400;
+	font-family: inherit;
+	text-transform: capitalize;
+}
+.footer .copyright h4 span {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.social-md {
+	width: fit-content;
+	margin: auto;
+}
+.social-md ul{
+	display: inline-block;
+	margin: 0 !important;
+}
+ul li {
+	list-style: none;
+}
+ul li a {
+	text-decoration: none;
+}
+ul li i {
+	font-size: 50px;
+}
+ul li i:hover {
+	transform: scale(1.1);
+	transition: .4s ease;
+}
+ /* End Footer */
